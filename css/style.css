@@ -3,6 +3,9 @@ body {
   font-family: Roboto, sans-serif;
   color: #212121;
 }
+a {
+  text-decoration: none
+}
 .logo {
   font-family: "Raleway";
   font-style: normal;
