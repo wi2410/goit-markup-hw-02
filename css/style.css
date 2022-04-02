@@ -68,28 +68,27 @@ text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.nav:hover, 
-.nav:focus {
-  color: var(--hover-color);
-}
+
 .contacts {
   font-style: normal;
   line-height: 1.7;
   color: var(--title-text-color);
   text-decoration: none;
 }
-.contacts:hover, 
+.nav:hover, 
+.nav:focus,
+.contacts:hover,
 .contacts:focus {
   color: var(--hover-color);
 }
- 
+
 /* button */
 .button {
   border-radius: 4px;
   background-color: var(--hover-color);
   color: var(--accent-color);
   cursor: pointer;
-  font-family: var(--primary-font)
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,7 +101,7 @@ text-decoration: none;
   cursor: pointer;
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
-  font-family: var(--primary-font)
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
