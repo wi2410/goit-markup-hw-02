@@ -7,6 +7,7 @@
 --secondary-bg-color: #F5F4FA;
 --hover-color:#2196F3;
 --footer-bg-color: #2F303A;
+--hover-button-color: #188CE8;
 --primary-font: 'Roboto';
 --secondary-font: 'Raleway';
 }
@@ -101,6 +102,10 @@ text-decoration: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--hover-button-color);
 }
 .button-portfolio {
   cursor: pointer;
